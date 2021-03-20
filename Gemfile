@@ -28,6 +28,7 @@ gem 'spree', '~> 4.2'
 gem 'spree_auth_devise', '~> 4.3'
 gem 'spree_gateway', '~> 3.9'
 gem 'spree_i18n', '~> 5.0'
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
 # gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
 
 # gem 'spree_multi_vendor'

@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/spree-contrib/better_spree_paypal_express.git
+  revision: 49c579ac7eb968bba67b97126bd4473f709174ad
+  specs:
+    spree_paypal_express (3.3.0)
+      paypal-sdk-merchant
+      spree_auth_devise (>= 3.1.0, < 5.0)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -181,12 +191,18 @@ GEM
     money (6.14.1)
       i18n (>= 0.6.4, <= 2)
     msgpack (1.4.2)
+    multi_json (1.15.0)
     nio4r (2.5.7)
     nokogiri (1.11.2-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     paranoia (2.4.3)
       activerecord (>= 4.0, < 6.2)
+    paypal-sdk-core (0.3.4)
+      multi_json (~> 1.0)
+      xml-simple
+    paypal-sdk-merchant (1.117.2)
+      paypal-sdk-core (~> 0.3.0)
     pg (1.2.3)
     popper_js (1.16.0)
     premailer (1.14.2)
@@ -395,6 +411,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    xml-simple (1.1.8)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.2)
@@ -418,6 +435,7 @@ DEPENDENCIES
   spree_auth_devise (~> 4.3)
   spree_gateway (~> 3.9)
   spree_i18n (~> 5.0)
+  spree_paypal_express!
   spring
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
