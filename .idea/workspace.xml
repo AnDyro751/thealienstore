@@ -11,8 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Change ruby v">
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+    </list>
+    <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Gemfile">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="4" changelist="2297f13f-222d-4d00-849a-2023226c1c56" />
+        <range start1="8" end1="9" start2="8" end2="10" changelist="9815e935-b4f9-4331-b42a-5a83e1492bbb" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
   <component name="ProjectViewState">
@@ -145,11 +158,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="" />
+      <changelist id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="" />
       <created>1616251243445</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616251243445</updated>
-      <workItem from="1616251244550" duration="3279000" />
+      <workItem from="1616251244550" duration="4208000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -172,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616257830461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change ruby v">
+      <created>1616257916263</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616257916263</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change ruby v">
+      <created>1616258148885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616258148885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +227,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616252991815" />
+    <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1616258666333">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="100" y="100" width="1166" height="568" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1616258666333" />
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1616252983807">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -207,13 +239,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1616252930710" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616257834008">
+    <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616257834008" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616253650150">
+    <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1616258195333" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616258166727">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616253650150" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616258166727" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616258589204">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616258589204" />
   </component>
 </project>
