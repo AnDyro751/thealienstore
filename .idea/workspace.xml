@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Change database.yml">
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Funciona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616251243445</updated>
-      <workItem from="1616251244550" duration="6007000" />
+      <workItem from="1616251244550" duration="6975000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616259081399</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Funciona">
+      <created>1616260763246</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616260763246</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +245,8 @@
     <MESSAGE value="Vamos a deployar" />
     <MESSAGE value="Change ruby v" />
     <MESSAGE value="Change database.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change database.yml" />
+    <MESSAGE value="Funciona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funciona" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616252991815">
@@ -251,14 +257,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1616258666333" />
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1616252983807">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1616261132729">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1616252983807" />
-    <state x="187" y="18" key="SettingsEditor" timestamp="1616252930710">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1616261132729" />
+    <state x="187" y="18" key="SettingsEditor" timestamp="1616261133208">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1616252930710" />
+    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1616261133208" />
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -267,9 +273,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616259082956" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616259558647">
+    <state x="389" y="132" width="587" height="592" key="find.popup" timestamp="1616261555367">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616259558647" />
+    <state x="389" y="132" width="587" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1616261555367" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616261636290">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616261636290" />
   </component>
 </project>
