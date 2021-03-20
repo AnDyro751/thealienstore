@@ -10,15 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Change ruby v">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-    </list>
-    <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="">
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Change database.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
+    <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,14 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Gemfile">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="4" changelist="2297f13f-222d-4d00-849a-2023226c1c56" />
-        <range start1="8" end1="9" start2="8" end2="10" changelist="9815e935-b4f9-4331-b42a-5a83e1492bbb" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
   <component name="ProjectViewState">
@@ -163,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616251243445</updated>
-      <workItem from="1616251244550" duration="4208000" />
+      <workItem from="1616251244550" duration="6007000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -200,7 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1616258148885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change database.yml">
+      <created>1616258894705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616258894705</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change database.yml">
+      <created>1616259035157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616259035157</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Change database.yml">
+      <created>1616259038120</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616259038120</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change database.yml">
+      <created>1616259081399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616259081399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vamos a deployar" />
     <MESSAGE value="Change ruby v" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change ruby v" />
+    <MESSAGE value="Change database.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change database.yml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616252991815">
@@ -243,13 +263,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1616258195333" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616258166727">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616259082956">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616258166727" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616258589204">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616259082956" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616259558647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616258589204" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616259558647" />
   </component>
 </project>

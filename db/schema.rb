@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_20_152132) do
+ActiveRecord::Schema.define(version: 2021_03_20_144932) do
 
   create_table "action_mailbox_inbound_emails", force: :cascade do |t|
     t.integer "status", default: 0, null: false
@@ -540,7 +540,6 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.boolean "promotionable", default: true
     t.string "meta_title"
     t.datetime "discontinue_on"
-    t.integer "vendor_id"
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
@@ -548,7 +547,6 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.index ["shipping_category_id"], name: "index_spree_products_on_shipping_category_id"
     t.index ["slug"], name: "index_spree_products_on_slug", unique: true
     t.index ["tax_category_id"], name: "index_spree_products_on_tax_category_id"
-    t.index ["vendor_id"], name: "index_spree_products_on_vendor_id"
   end
 
   create_table "spree_products_taxons", force: :cascade do |t|
@@ -841,10 +839,8 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.string "admin_name"
     t.integer "tax_category_id"
     t.string "code"
-    t.integer "vendor_id"
     t.index ["deleted_at"], name: "index_spree_shipping_methods_on_deleted_at"
     t.index ["tax_category_id"], name: "index_spree_shipping_methods_on_tax_category_id"
-    t.index ["vendor_id"], name: "index_spree_shipping_methods_on_vendor_id"
   end
 
   create_table "spree_shipping_rates", force: :cascade do |t|
@@ -914,13 +910,11 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.boolean "backorderable_default", default: false
     t.boolean "propagate_all_variants", default: true
     t.string "admin_name"
-    t.integer "vendor_id"
     t.index ["active"], name: "index_spree_stock_locations_on_active"
     t.index ["backorderable_default"], name: "index_spree_stock_locations_on_backorderable_default"
     t.index ["country_id"], name: "index_spree_stock_locations_on_country_id"
     t.index ["propagate_all_variants"], name: "index_spree_stock_locations_on_propagate_all_variants"
     t.index ["state_id"], name: "index_spree_stock_locations_on_state_id"
-    t.index ["vendor_id"], name: "index_spree_stock_locations_on_vendor_id"
   end
 
   create_table "spree_stock_movements", force: :cascade do |t|
@@ -1154,7 +1148,6 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.datetime "updated_at", null: false
     t.datetime "discontinue_on"
     t.datetime "created_at", null: false
-    t.integer "vendor_id"
     t.index ["deleted_at"], name: "index_spree_variants_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_variants_on_discontinue_on"
     t.index ["is_master"], name: "index_spree_variants_on_is_master"
@@ -1163,31 +1156,6 @@ ActiveRecord::Schema.define(version: 2021_03_20_152132) do
     t.index ["sku"], name: "index_spree_variants_on_sku"
     t.index ["tax_category_id"], name: "index_spree_variants_on_tax_category_id"
     t.index ["track_inventory"], name: "index_spree_variants_on_track_inventory"
-    t.index ["vendor_id"], name: "index_spree_variants_on_vendor_id"
-  end
-
-  create_table "spree_vendor_users", force: :cascade do |t|
-    t.integer "vendor_id"
-    t.integer "user_id"
-    t.index ["user_id"], name: "index_spree_vendor_users_on_user_id"
-    t.index ["vendor_id", "user_id"], name: "index_spree_vendor_users_on_vendor_id_and_user_id", unique: true
-    t.index ["vendor_id"], name: "index_spree_vendor_users_on_vendor_id"
-  end
-
-  create_table "spree_vendors", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string "state"
-    t.datetime "deleted_at"
-    t.string "slug"
-    t.text "about_us"
-    t.text "contact_us"
-    t.float "commission_rate", default: 5.0
-    t.index ["deleted_at"], name: "index_spree_vendors_on_deleted_at"
-    t.index ["name"], name: "index_spree_vendors_on_name", unique: true
-    t.index ["slug"], name: "index_spree_vendors_on_slug", unique: true
-    t.index ["state"], name: "index_spree_vendors_on_state"
   end
 
   create_table "spree_zone_members", force: :cascade do |t|
