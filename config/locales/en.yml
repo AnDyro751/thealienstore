@@ -31,3 +31,8 @@
 
 en:
   hello: "Hello world"
+  navbar:
+    home: "Home"
+    dolls: "Dolls"
+    merch: "Merch"
+    contact: "Contact"
