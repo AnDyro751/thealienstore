@@ -11,18 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Put de icon">
-      <change afterPath="$PROJECT_DIR$/app/javascript/stylesheets/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_nav_bar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_nav_bar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,6 +169,8 @@
       <workItem from="1616342793007" duration="661000" />
       <workItem from="1616448154235" duration="816000" />
       <workItem from="1616683095855" duration="3409000" />
+      <workItem from="1616767979241" duration="109000" />
+      <workItem from="1618156890044" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -306,10 +300,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Put de icon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616252991815">
+    <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616768009215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616252991815" />
+    <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616768009215" />
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1616258666333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -334,9 +328,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="587" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1616686462130" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616686493225">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616768026741">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616686493225" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616768026741" />
   </component>
 </project>
