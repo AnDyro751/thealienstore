@@ -8,6 +8,21 @@ GIT
       spree_core (>= 3.1.0, < 5.0)
       spree_extension
 
+GIT
+  remote: https://github.com/spree-contrib/spree_globalize.git
+  revision: aa011eaaff7dd2065c24bcf1daf24875e72d9aea
+  specs:
+    spree_globalize (4.0.0.beta)
+      deface (~> 1.0)
+      friendly_id-globalize
+      globalize
+      i18n_data
+      kaminari-i18n
+      rails-i18n
+      spree_core (>= 4.2.0.rc5, < 5.0)
+      spree_extension
+      spree_i18n
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -131,6 +146,11 @@ GEM
     crass (1.0.6)
     css_parser (1.9.0)
       addressable
+    deface (1.8.1)
+      nokogiri (>= 1.6)
+      polyglot
+      rails (>= 5.2)
+      rainbow (>= 2.1.0)
     devise (4.7.3)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -148,8 +168,14 @@ GEM
     flatpickr (4.6.6.0)
     friendly_id (5.4.2)
       activerecord (>= 4.0.0)
+    friendly_id-globalize (1.0.0.alpha3)
+      friendly_id (>= 5.2.0, < 6.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    globalize (6.0.0)
+      activemodel (>= 4.2, < 7.0)
+      activerecord (>= 4.2, < 7.0)
+      request_store (~> 1.0)
     glyphicons (1.0.2)
     highline (2.0.3)
     htmlentities (4.3.4)
@@ -219,6 +245,7 @@ GEM
     paypal-sdk-merchant (1.117.2)
       paypal-sdk-core (~> 0.3.0)
     pg (1.2.3)
+    polyglot (0.3.5)
     popper_js (1.16.0)
     premailer (1.14.3)
       addressable
@@ -271,6 +298,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (~> 1.0)
+    rainbow (3.0.0)
     rake (13.0.3)
     ransack (2.4.2)
       activerecord (>= 5.2.4)
@@ -280,6 +308,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
+    request_store (1.5.0)
+      rack (>= 1.4)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -453,6 +483,7 @@ DEPENDENCIES
   spree (~> 4.2.0)
   spree_auth_devise (~> 4.3)
   spree_gateway (~> 3.9)
+  spree_globalize!
   spree_i18n (~> 5.0)
   spree_paypal_express!
   spring
