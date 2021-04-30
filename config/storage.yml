@@ -3,12 +3,18 @@ test:
   root: <%= Rails.root.join("tmp/storage") %>
 
 local:
-  service: s3
-  access_key_id: AKIAYAOMZIQZOYGYRCRK
-  secret_access_key: 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
-  region: us-east-1
-  bucket: alienstore
-
+  service: Cloudinary
+  cloud_name: "healthbox"
+  api_key: "184383136382919"
+  api_secret: "qlHCMgI4GEwi1a2XCG0gvkzGcQw"
+  secure: true
+  cdn_subdomain: true
+  enhance_image_tag: true
+  static_file_support: false
+  # access_key_id: AKIAYAOMZIQZOYGYRCRK
+  # secret_access_key: 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
+  # region: us-east-1
+  # bucket: alienstore
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
 #   service: S3

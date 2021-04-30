@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem "aws-sdk-s3", require: false
 gem 'rack-cors'
 gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
+gem 'cloudinary'
+gem 'spree_contact_us', path: '~/Code/RB/spree_contact_us'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

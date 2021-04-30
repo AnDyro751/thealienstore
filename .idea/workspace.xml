@@ -11,10 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Put de icon">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/image_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alienstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alienstore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,16 +35,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/javascript/stylesheets" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.rvm/rubies/ruby-2.7.2/bin/ruby" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,7 +56,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -171,6 +184,8 @@
       <workItem from="1616683095855" duration="3409000" />
       <workItem from="1616767979241" duration="109000" />
       <workItem from="1618156890044" duration="47000" />
+      <workItem from="1619801581115" duration="812000" />
+      <workItem from="1619802420855" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -289,6 +304,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Vamos a deployar" />
     <MESSAGE value="Change ruby v" />
     <MESSAGE value="Change database.yml" />
@@ -308,14 +324,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1616258666333" />
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1616343921243">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1619802057583">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1616343921243" />
-    <state x="187" y="18" key="SettingsEditor" timestamp="1616261133208">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1619802057583" />
+    <state x="187" y="18" key="SettingsEditor" timestamp="1619802488732">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1616261133208" />
+    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1619802488732" />
+    <state width="650" height="445" key="SwitcherDM" timestamp="1619804249885">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1619804249885" />
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -328,9 +348,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="587" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1616686462130" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616768026741">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1619804261861">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616768026741" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1619804261861" />
   </component>
 </project>

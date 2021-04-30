@@ -26,8 +26,41 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="ruby-2.7.2-p137" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="spree_contact_us (v4.0.0.alpha2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../spree_contact_us/app" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/lib" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/.git" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/spec" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/config" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/script" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../spree_contact_us/app" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/lib" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/.git" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/spec" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/config" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/script" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/gemfiles" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../spree_contact_us/.git" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/spec" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/config" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/script" />
+          <root url="file://$MODULE_DIR$/../spree_contact_us/gemfiles" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.4, ruby-2.7.2-p137) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
