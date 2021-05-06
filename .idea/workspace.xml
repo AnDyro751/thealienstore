@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,19 +13,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Put de icon">
-      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/image_decorator.rb" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Antes de regarla con algo de la API">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/my_store/spree/api/products_controller_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/spree/stripe_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/spree/webhooks_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/order_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/product_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/algoliasearch.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/AddressForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/alienstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alienstore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment_manifest.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment_manifest.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/orders/_line_item.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/orders/_line_item.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
@@ -35,7 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,7 +66,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.rvm/rubies/ruby-2.7.2/bin/ruby" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JS/alienstore-dev" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,10 +74,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.settings.patched" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart" />
+      <recent name="$PROJECT_DIR$/app/controllers/spree" />
       <recent name="$PROJECT_DIR$/app/javascript/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -185,7 +207,11 @@
       <workItem from="1616767979241" duration="109000" />
       <workItem from="1618156890044" duration="47000" />
       <workItem from="1619801581115" duration="812000" />
-      <workItem from="1619802420855" duration="1943000" />
+      <workItem from="1619802420855" duration="8234000" />
+      <workItem from="1620175255633" duration="8008000" />
+      <workItem from="1620328871877" duration="888000" />
+      <workItem from="1620331280994" duration="83000" />
+      <workItem from="1620331377358" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -285,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616684923906</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Antes de regarla con algo de la API">
+      <created>1619806127279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619806127279</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,29 +346,50 @@
     <MESSAGE value="Sqlite3" />
     <MESSAGE value="Add paypal" />
     <MESSAGE value="Put de icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put de icon" />
+    <MESSAGE value="Antes de regarla con algo de la API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Antes de regarla con algo de la API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616768009215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616768009215" />
+    <state x="412" y="188" width="531" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620331923772">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="412" y="188" width="531" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1620331923772" />
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1616258666333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1616258666333" />
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1619802057583">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1620331021076">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1619802057583" />
-    <state x="187" y="18" key="SettingsEditor" timestamp="1619802488732">
+    <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1620331021076" />
+    <state width="1324" height="179" key="GridCell.Tab.0.bottom" timestamp="1620331689830">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1619802488732" />
-    <state width="650" height="445" key="SwitcherDM" timestamp="1619804249885">
+    <state width="1324" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1620331689830" />
+    <state width="1324" height="179" key="GridCell.Tab.0.center" timestamp="1620331689829">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1619804249885" />
+    <state width="1324" height="179" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1620331689829" />
+    <state width="1324" height="179" key="GridCell.Tab.0.left" timestamp="1620331689828">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="179" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1620331689828" />
+    <state width="1324" height="179" key="GridCell.Tab.0.right" timestamp="1620331689829">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="179" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1620331689829" />
+    <state x="187" y="18" key="SettingsEditor" timestamp="1620331361351">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1620331361351" />
+    <state width="650" height="445" key="SwitcherDM" timestamp="1620334968338">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1620334968338" />
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -344,13 +398,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616264333478" />
-    <state x="389" y="132" width="587" height="592" key="find.popup" timestamp="1616686462130">
+    <state x="100" y="99" width="1166" height="568" key="dock-window-1" timestamp="1620179666850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1616686462130" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1619804261861">
+    <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620332753326">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1619804261861" />
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620332753326" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620332541794">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620332541794" />
   </component>
 </project>

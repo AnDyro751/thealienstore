@@ -28,6 +28,7 @@ gem 'spree', '~> 4.2.0'
 gem 'spree_auth_devise', '~> 4.3'
 gem 'spree_gateway', '~> 3.9'
 gem 'spree_i18n', '~> 5.0'
+gem 'stripe'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
 # gem 'spree_mercado_pago', '~> 3.3.0', git: "https://github.com/AnDyro751/spree_mercado_pago"
 # gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
@@ -40,6 +41,8 @@ gem 'rack-cors'
 gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
 gem 'cloudinary'
 gem 'spree_contact_us', path: '~/Code/RB/spree_contact_us'
+gem "algoliasearch-rails"
+gem "rufo"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

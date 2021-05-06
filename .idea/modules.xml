@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/alienstore.iml" filepath="$PROJECT_DIR$/.idea/alienstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JS/alienstore-dev/.idea/alienstore-dev.iml" filepath="$PROJECT_DIR$/../../JS/alienstore-dev/.idea/alienstore-dev.iml" />
     </modules>
   </component>
 </project>
