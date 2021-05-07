@@ -14,19 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Stripe webhooks and checkout completed">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/OrderData/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/public/images/icons8-loading-infinity.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/deleteCookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/getQueryParams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/spree/orders_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/CartStepper/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/CartStepper/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/PaypalElements/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HeaderChangeOptions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HeaderChangeOptions/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/ChangeCurrency/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/ChangeCurrency/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/HeadersChaneLocale/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/HeadersChaneLocale/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/Main/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Layouts/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Layouts/Main/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/payment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/styles/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/styles/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
@@ -198,7 +199,7 @@
       <workItem from="1620175255633" duration="8008000" />
       <workItem from="1620328871877" duration="888000" />
       <workItem from="1620331280994" duration="83000" />
-      <workItem from="1620331377358" duration="10996000" />
+      <workItem from="1620331377358" duration="21330000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -312,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620335059547</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: Stripe webhooks and checkout completed">
+      <created>1620347545409</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620347545409</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: Stripe webhooks and checkout completed">
+      <created>1620347550910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620347550910</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,29 +400,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1620340172045" />
-    <state width="650" height="445" key="SwitcherDM" timestamp="1620345565209">
+    <state width="650" height="445" key="SwitcherDM" timestamp="1620359804964">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1620345565209" />
+    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1620359804964" />
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1616258195333" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616264333478">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1620347557080">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1616264333478" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1620347557080" />
     <state x="100" y="99" width="1166" height="568" key="dock-window-1" timestamp="1620179666850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620345801545">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620361753427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620345801545" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620346216102">
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620361753427" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620364071590">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620346216102" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620364071590" />
   </component>
 </project>
