@@ -30,4 +30,5 @@ end
 
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
 
+Rails.application.config.spree.payment_methods << Spree::Gateway::Mercadopago
 Spree.user_class = "Spree::User"

@@ -13,21 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Stripe webhooks and checkout completed">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/PaypalElements/index.jsx" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Pago con paypal y con stripe checkout">
+      <change afterPath="$PROJECT_DIR$/app/models/spree/gateway/mercadopago.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HeaderChangeOptions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HeaderChangeOptions/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/ChangeCurrency/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/ChangeCurrency/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/HeadersChaneLocale/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/HeadersChaneLocale/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Headers/Main/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Layouts/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Layouts/Main/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/payment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/styles/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/styles/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/PaypalElements/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/PaypalElements/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/spree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
@@ -67,9 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models/spree/gateway" />
+      <recent name="$PROJECT_DIR$/app/models/spree" />
+      <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart" />
       <recent name="$PROJECT_DIR$/app/controllers/spree" />
-      <recent name="$PROJECT_DIR$/app/javascript/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../../JS/alienstore-dev/public/images" />
@@ -199,7 +192,7 @@
       <workItem from="1620175255633" duration="8008000" />
       <workItem from="1620328871877" duration="888000" />
       <workItem from="1620331280994" duration="83000" />
-      <workItem from="1620331377358" duration="21330000" />
+      <workItem from="1620331377358" duration="25140000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -327,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620347550910</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Pago con paypal y con stripe checkout">
+      <created>1620364147672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620364147672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +357,8 @@
     <MESSAGE value="Put de icon" />
     <MESSAGE value="Antes de regarla con algo de la API" />
     <MESSAGE value="feat: Stripe webhooks and checkout completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Stripe webhooks and checkout completed" />
+    <MESSAGE value="Pago con paypal y con stripe checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pago con paypal y con stripe checkout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -368,10 +369,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616768009215" />
-    <state x="412" y="188" width="531" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620331923772">
+    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620397134054">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="188" width="531" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1620331923772" />
+    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1620397134054" />
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1616258666333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -416,13 +417,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620361753427">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620398206673">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620361753427" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620364071590">
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620398206673" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620398244454">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620364071590" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620398244454" />
   </component>
 </project>
