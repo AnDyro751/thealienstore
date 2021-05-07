@@ -13,33 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="Antes de regarla con algo de la API">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/my_store/spree/api/products_controller_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/spree/stripe_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/spree/webhooks_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/order_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/my_store/spree/product_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/algoliasearch.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/AddressForm/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/alienstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alienstore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Stripe webhooks and checkout completed">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/OrderData/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/public/images/icons8-loading-infinity.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/deleteCookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/getQueryParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/spree/orders_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/CartStepper/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/CartStepper/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment_manifest.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment_manifest.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/orders/_line_item.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/orders/_line_item.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
@@ -50,7 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/alienstore-dev" />
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,7 +52,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JS/alienstore-dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JS/alienstore-dev/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.settings.patched" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -85,6 +71,7 @@
       <recent name="$PROJECT_DIR$/app/javascript/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../JS/alienstore-dev/public/images" />
       <recent name="$PROJECT_DIR$/app/javascript/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/public" />
@@ -211,7 +198,7 @@
       <workItem from="1620175255633" duration="8008000" />
       <workItem from="1620328871877" duration="888000" />
       <workItem from="1620331280994" duration="83000" />
-      <workItem from="1620331377358" duration="2750000" />
+      <workItem from="1620331377358" duration="10996000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -318,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619806127279</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: Stripe webhooks and checkout completed">
+      <created>1620335059547</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620335059547</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,9 +341,14 @@
     <MESSAGE value="Add paypal" />
     <MESSAGE value="Put de icon" />
     <MESSAGE value="Antes de regarla con algo de la API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Antes de regarla con algo de la API" />
+    <MESSAGE value="feat: Stripe webhooks and checkout completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Stripe webhooks and checkout completed" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1620340062322" />
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616768009215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -382,14 +381,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="179" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1620331689829" />
-    <state x="187" y="18" key="SettingsEditor" timestamp="1620331361351">
+    <state x="187" y="18" key="SettingsEditor" timestamp="1620340172045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1620331361351" />
-    <state width="650" height="445" key="SwitcherDM" timestamp="1620334968338">
+    <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1620340172045" />
+    <state width="650" height="445" key="SwitcherDM" timestamp="1620345565209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1620334968338" />
+    <state width="650" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1620345565209" />
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser" timestamp="1616258195333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -402,13 +401,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620332753326">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620345801545">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620332753326" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620332541794">
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620345801545" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620346216102">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620332541794" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620346216102" />
   </component>
 </project>

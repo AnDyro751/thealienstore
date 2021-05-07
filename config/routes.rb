@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # the default of "spree".
   mount Spree::Core::Engine, at: "/"
   Spree::Core::Engine.add_routes do
+    get "/get_order/:order_id", to: "orders#get_order"
     post "/stripe_checkout", to: "stripe#checkout"
     post "/webhooks", to: "webhooks#checkout"
   end
