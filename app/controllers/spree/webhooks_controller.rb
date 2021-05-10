@@ -26,7 +26,11 @@ class Spree::WebhooksController < ::Spree::Api::V2::BaseController
       metadata_number = checkout_session["metadata"]["order_number"]
       spree_order = Spree::Order.find_by(number: metadata_number)
       return status 400 if spree_order.nil?
-      spree_order.force_complete(checkout_session["id"], Spree::PaymentMethod.find_by(type: "Spree::Gateway::StripeElementsGateway"), checkout_session["payment_intent"])
+      spree_order.force_complete(
+          checkout_session["id"],
+          Spree::PaymentMethod.find_by(type: "Spree::Gateway::StripeElementsGateway"),
+          checkout_session["payment_intent"],
+          checkout_session["amount_total"])
       puts "-----------#{checkout_session}"
       # fulfill_order(checkout_session)
     end
