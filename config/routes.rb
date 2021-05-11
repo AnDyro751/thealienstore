@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     get "/get_order/:order_id", to: "orders#get_order"
     post "/stripe_checkout", to: "stripe#checkout"
     post "/webhooks", to: "webhooks#checkout"
+    # Mercado pago integrations
+    post "/mercado_pago_checkout", to: "mercado#checkout"
   end
   get "/change_currency", to: "currency#change"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
