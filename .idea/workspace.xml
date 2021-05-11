@@ -13,16 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Init process order">
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainSuccess/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/MercadopagoElements/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/MercadopagoElements/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Complete order when use mercado pago gateway">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.client.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.server.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HomeBanner/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HomeBanner/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/spree/mercado_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/spree/mercado_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/development.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/development.sqlite" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/alienstore-dev" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
@@ -198,7 +195,7 @@
       <workItem from="1620331280994" duration="83000" />
       <workItem from="1620331377358" duration="27066000" />
       <workItem from="1620568786780" duration="29000" />
-      <workItem from="1620656933007" duration="30961000" />
+      <workItem from="1620656933007" duration="32529000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -403,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620698597556</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: Complete order when use mercado pago gateway">
+      <created>1620704516855</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1620704516855</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +447,8 @@
     <MESSAGE value="feat: Load without ssr stripe elements" />
     <MESSAGE value="feat: Init mercado pago integration" />
     <MESSAGE value="feat: Init process order" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Init process order" />
+    <MESSAGE value="feat: Complete order when use mercado pago gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Complete order when use mercado pago gateway" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -494,21 +499,21 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1616258195333" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1620698604193">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1620704521759">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1620698604193" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1620704521759" />
     <state x="100" y="99" width="1166" height="568" key="dock-window-1" timestamp="1620179666850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620701619307">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620742937095">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620701619307" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620703721651">
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620742937095" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620742154913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620703721651" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620742154913" />
   </component>
 </project>
