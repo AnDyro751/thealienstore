@@ -13,14 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Add new member for mailchimp audience">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Add api keys to .env.local">
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HitSearchComponent/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HitSearchComponent/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Show/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/my_store/spree/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/my_store/spree/product_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,7 @@
       <workItem from="1620331280994" duration="83000" />
       <workItem from="1620331377358" duration="27066000" />
       <workItem from="1620568786780" duration="29000" />
-      <workItem from="1620656933007" duration="35923000" />
+      <workItem from="1620656933007" duration="37454000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620745032470</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: Add api keys to .env.local">
+      <created>1620746506603</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1620746506603</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +470,8 @@
     <MESSAGE value="feat: Complete order when use mercado pago gateway" />
     <MESSAGE value="feat: Button banner style" />
     <MESSAGE value="feat: Add new member for mailchimp audience" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add new member for mailchimp audience" />
+    <MESSAGE value="feat: Add api keys to .env.local" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add api keys to .env.local" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -523,13 +530,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620744438167">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620748026631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620744438167" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620746431508">
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620748026631" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620747727612">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620746431508" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620747727612" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 Spree::Product.class_eval do
   include AlgoliaSearch
-  algoliasearch  index_name: "products" do
+  algoliasearch index_name: "products" do
     attribute :slug, :id, :available_on
-    
+
     attribute :names do
       get_all_name_translations
     end
@@ -13,6 +13,7 @@ Spree::Product.class_eval do
       get_all_images
     end
   end
+
   def get_all_name_translations
     self.translations.pluck(:locale, :name).to_h
   end
@@ -24,7 +25,7 @@ Spree::Product.class_eval do
   end
 
   def get_all_images
-    self.images.map{|image| "#{image.attachment.key}#{File.extname(image.attachment.filename.to_s)}"}
+    self.images.map { |image| {attributes: {styles: [url: "#{image.attachment.key}#{File.extname(image.attachment.filename.to_s)}"]}} }
   end
 end
 
