@@ -1,18 +1,47 @@
 Spree::Order.class_eval do
 
+  def get_line_items_mercado
+    spree_line_items = []
+    line_items_and_variants.map do |line_item|
+      new_line_item = price_data_mercado(line_item.variant.name, line_item.total.to_f, line_item.quantity)
+      spree_line_items.push(new_line_item)
+    end
+    # spree_line_items.push(get_shipment_item_mercado)
+    spree_line_items
+  end
+
+  def get_shipment_item_mercado
+    shipments = self.shipments
+    if shipments.length <= 0
+      return {
+          cost: 0,
+          mode: "not_specified"
+      }
+    else
+      last_shipment = shipments.last
+      total = last_shipment.cost.to_f
+      return {
+          cost: total,
+          mode: "not_specified"
+      }
+    end
+  end
+
+
+  def price_data_mercado(title, unit_price, quantity)
+    {
+        title: title,
+        unit_price: unit_price,
+        quantity: quantity,
+        currency_id: self.currency
+    }
+  end
+
+
   def get_line_items
     spree_line_items = []
     line_items_and_variants.map do |line_item|
-      new_line_item = {
-          price_data: {
-              currency: self.currency,
-              product_data: {
-                  name: line_item.variant.name
-              },
-              unit_amount: (line_item.total.to_f * 100).to_i
-          },
-          quantity: line_item.quantity
-      }
+      new_line_item = price_data(self.currency, line_item.variant.name, line_item.total.to_f, line_item.quantity)
       spree_line_items.push(new_line_item)
     end
     spree_line_items.push(get_shipment_item(self.currency))

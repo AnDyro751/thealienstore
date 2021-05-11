@@ -13,12 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Load without ssr stripe elements">
-      <change afterPath="$PROJECT_DIR$/app/controllers/spree/mercado_controller.rb" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Init mercado pago integration">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/MercadopagoElements/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Cart/MainPayments/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/cart/success.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/spree/mercado_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/spree/mercado_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/my_store/spree/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/my_store/spree/order_decorator.rb" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/alienstore-dev" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1q1dtPjwbjbncmQKlirbSFckuGG" />
@@ -194,7 +195,7 @@
       <workItem from="1620331280994" duration="83000" />
       <workItem from="1620331377358" duration="27066000" />
       <workItem from="1620568786780" duration="29000" />
-      <workItem from="1620656933007" duration="23518000" />
+      <workItem from="1620656933007" duration="27418000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -385,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620694282192</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: Init mercado pago integration">
+      <created>1620694784013</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1620694784013</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +431,8 @@
     <MESSAGE value="feat: Add cookie path" />
     <MESSAGE value="feat: Load paypal script" />
     <MESSAGE value="feat: Load without ssr stripe elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Load without ssr stripe elements" />
+    <MESSAGE value="feat: Init mercado pago integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Init mercado pago integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -486,9 +495,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620694008297" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620694662677">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620698458118">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620694662677" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620698458118" />
   </component>
 </project>
