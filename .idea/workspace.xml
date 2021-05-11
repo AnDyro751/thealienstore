@@ -13,17 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Button banner style">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/NewSubscription/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Button/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Button/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/ContactAccess/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/ContactAccess/index.jsx" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Add new member for mailchimp audience">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Main/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +176,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="" />
-      <changelist id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="" />
+      <changelist id="" name="Change ruby v" comment="" />
       <created>1616251243445</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -197,7 +195,7 @@
       <workItem from="1620331280994" duration="83000" />
       <workItem from="1620331377358" duration="27066000" />
       <workItem from="1620568786780" duration="29000" />
-      <workItem from="1620656933007" duration="34515000" />
+      <workItem from="1620656933007" duration="35923000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -416,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620742974555</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: Add new member for mailchimp audience">
+      <created>1620745032470</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1620745032470</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +463,8 @@
     <MESSAGE value="feat: Init process order" />
     <MESSAGE value="feat: Complete order when use mercado pago gateway" />
     <MESSAGE value="feat: Button banner style" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Button banner style" />
+    <MESSAGE value="feat: Add new member for mailchimp audience" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add new member for mailchimp audience" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -469,10 +475,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1616768009215" />
-    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620397134054">
+    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620745974794">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1620397134054" />
+    <state x="412" y="188" width="541" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1620745974794" />
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1616258666333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -509,10 +515,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="532" y="299" width="292" height="162" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1616258195333" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1620704521759">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1620745037001">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1620704521759" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1620745037001" />
     <state x="100" y="99" width="1166" height="568" key="dock-window-1" timestamp="1620179666850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -521,9 +527,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620744438167" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620742154913">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620746431508">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620742154913" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1620746431508" />
   </component>
 </project>
