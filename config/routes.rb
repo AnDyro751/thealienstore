@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     post "/webhooks", to: "webhooks#checkout"
     # Mercado pago integrations
     post "/mercado_pago_checkout", to: "mercado#checkout"
+    post "/mercado_pago_complete", to: "mercado#complete"
   end
   get "/change_currency", to: "currency#change"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
