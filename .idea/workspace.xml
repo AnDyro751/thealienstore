@@ -13,12 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Complete order when use mercado pago gateway">
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.client.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/sentry.server.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HomeBanner/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/HomeBanner/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/index.js" afterDir="false" />
+    <list default="true" id="9815e935-b4f9-4331-b42a-5a83e1492bbb" name="Default Changelist" comment="feat: Button banner style">
+      <change afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/NewSubscription/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Button/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Button/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/ContactAccess/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/ContactAccess/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/Input/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/components/products/Main/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/pages/api/mailchimp/new_member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/alienstore-dev/src/lib/apiConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="2297f13f-222d-4d00-849a-2023226c1c56" name="Change ruby v" comment="Change ruby v" />
@@ -195,7 +197,7 @@
       <workItem from="1620331280994" duration="83000" />
       <workItem from="1620331377358" duration="27066000" />
       <workItem from="1620568786780" duration="29000" />
-      <workItem from="1620656933007" duration="32529000" />
+      <workItem from="1620656933007" duration="34515000" />
     </task>
     <task id="LOCAL-00001" summary="Vamos a deployar">
       <created>1616257420334</created>
@@ -407,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620704516855</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat: Button banner style">
+      <created>1620742974555</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1620742974555</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +457,8 @@
     <MESSAGE value="feat: Init mercado pago integration" />
     <MESSAGE value="feat: Init process order" />
     <MESSAGE value="feat: Complete order when use mercado pago gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Complete order when use mercado pago gateway" />
+    <MESSAGE value="feat: Button banner style" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Button banner style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="215" width="551" height="330" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1620340062322">
@@ -507,10 +517,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="99" width="1166" height="568" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1620179666850" />
-    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620742937095">
+    <state x="389" y="132" width="587" height="624" key="find.popup" timestamp="1620744438167">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620742937095" />
+    <state x="389" y="132" width="587" height="624" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1620744438167" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1620742154913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
